@@ -30,7 +30,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhoiost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhoiost", "127.0.0.1", "https://pbp.cs.ui.ac.id/fitto.fadhelli/footballnews"]
 
 
 # Application definition
