@@ -27,7 +27,7 @@ class mainTest(TestCase):
         self.assertEqual(news.category, "match")
         self.assertTrue(news.is_featured)
 
-    def test_news_creation(self):
+    def test_news_default_values(self):
         news = News.objects.create(
             title="Test News",
             content ="Test content"
